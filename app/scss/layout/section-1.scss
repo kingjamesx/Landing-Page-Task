@@ -1,0 +1,15 @@
+.section-1{
+    display:flex;
+    position:absolute;
+    top:0;
+    height: 300px;
+    border:2px solid red;
+    z-index:-1;
+}
+.section-1__text{
+    margin-top: 5rem;
+      
+}
+.section-1__img{
+    border: 2px solid red;
+}

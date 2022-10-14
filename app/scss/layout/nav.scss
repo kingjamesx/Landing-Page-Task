@@ -1,0 +1,14 @@
+.nav{
+    border:2px solid red;
+    position:relative;
+}
+ .nav__lists{
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.nav__list-logo{
+    margin-right: auto;
+}

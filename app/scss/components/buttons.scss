@@ -1,0 +1,10 @@
+@use '../abstracts/variables.scss' as v;
+.btn{
+   background-color: v.$btn-color; 
+   border: none;
+}
+.btn__sm{
+   box-shadow: 0px 0.5px 3px rgba(51, 39, 0, 0.5);
+   border-radius: 0.5rem;
+   padding: 0.8rem 1.5rem;
+}
