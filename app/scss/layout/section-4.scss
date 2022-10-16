@@ -1,0 +1,19 @@
+.section-4__bg{
+  background: url('/app/images/Frame\ 92.png') no-repeat center center;
+  background-size: contain;
+  width: 40%;
+  margin: auto;
+}
+.section-4__text{
+  text-align: center;
+  padding: 4em;
+}
+
+@media (min-width:500px) {
+  .section-4{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  
+ }

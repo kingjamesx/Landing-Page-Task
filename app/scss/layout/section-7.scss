@@ -1,0 +1,23 @@
+.section-7{
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-7__lists{
+  text-align: left;
+  flex-basis: 50%;
+}
+.section-7__name{
+  margin-left: 3.5em;
+}
+.section-7__list{
+  list-style-type: none;
+}
+.text-left {
+ text-align: right;
+  margin-right:7.5em;
+}
+@media (min-width:500px) {
+  .section-7__lists{
+      flex-basis: 25%;
+  }
+}

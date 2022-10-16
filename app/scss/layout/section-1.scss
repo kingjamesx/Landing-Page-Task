@@ -1,15 +1,22 @@
 .section-1{
-    display:flex;
-    position:absolute;
-    top:0;
-    height: 300px;
-    border:2px solid red;
-    z-index:-1;
+  // border:2px solid red;
+  background:linear-gradient(to bottom, rgba(255, 251, 240, 0.6), rgba(255, 251, 240, 0.9)),
+    url(/app/images/picture-1.png)no-repeat center center;
+  // background:url(/app/images/picture-1.png)no-repeat center center ;
+  background-size: cover;
+  padding-top: 1em;
 }
-.section-1__text{
-    margin-top: 5rem;
-      
+.article-1{
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0.5em;
 }
-.section-1__img{
-    border: 2px solid red;
+.article-1 h1{
+  font-size: 3rem;
+}
+.article-1__highlight-1{
+  color: #DE6101;
+}
+.article-1__highlight-2{
+color:#8A6A00;
 }
