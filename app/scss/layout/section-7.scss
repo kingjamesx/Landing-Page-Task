@@ -1,20 +1,23 @@
 .section-7{
   display: flex;
   flex-wrap: wrap;
+  &__lists{
+    text-align: left;
+    flex-basis: 50%;
+  }
+  &__name{
+    margin-left: 3.5em;
+  }
+  &__list{
+    list-style-type: none;
+  }
 }
-.section-7__lists{
-  text-align: left;
-  flex-basis: 50%;
-}
-.section-7__name{
-  margin-left: 3.5em;
-}
-.section-7__list{
-  list-style-type: none;
-}
+
 .text-left {
  text-align: right;
-  margin-right:7.5em;
+  // margin-right:7.5em;
+  width: 40%;
+  
 }
 @media (min-width:980px) {
   .section-7__lists{

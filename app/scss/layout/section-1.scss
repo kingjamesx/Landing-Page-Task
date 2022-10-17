@@ -1,12 +1,8 @@
 .section-1{
-  // border:2px solid red;
   background:linear-gradient(to bottom, rgba(255, 251, 240, 0.6), rgba(255, 251, 240, 0.9)),
     url(/app/images/picture-1.png)no-repeat center center;
-  // background:url(/app/images/picture-1.png)no-repeat center center ;
   background-size: cover;
   padding-top: 1em;
-    
- 
 }
 .article-1{
   text-align: center;
@@ -28,34 +24,35 @@ color:#8A6A00;
   
    .section-1{
     padding: 3rem;
-    background:linear-gradient(to right, rgba(255, 251, 240, 5), rgba(255, 251, 240, 0.1)),
+    background:linear-gradient(to right, rgba(255, 251, 240), rgba(255, 251, 240, 0.1)),
     url(/app/images/picture-1.png)no-repeat center center;
     background-size: 100% 100%;
    }
    .article-1{
     margin-bottom: 10rem;
     text-align: left;
-    
+    &__para{
+      width:50%;
+     margin-left: 2rem;
+      font-size: 2rem;
+      
+     }
    }
    .article-1 h1{
     font-size: 7rem;
-    width: 40%;
+    width: 60%;
     padding: 0;
     margin: 5rem;
     margin-left: 2rem;
    }
-   .article-1__para{
-    width:37%;
-   margin-left: 2rem;
-    font-size: 2rem;
-    
-   }
+  
    .download{
     margin-left: 8rem;
     margin-top: 4rem;
+    &-btn{
+      width: 25rem;
+     }
    }
-   .download-btn{
-    width: 25rem;
-   }
+  
  
  }

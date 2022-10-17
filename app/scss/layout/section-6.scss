@@ -3,22 +3,24 @@
   text-align: center;
   font-size: 1rem;
   background-color: #A38E811A;
+  padding: 3rem;
+  &__bg{
+    width: 30%;
+    margin: auto;
+  }
+  &__quote::before{
+     content :'“';
+     font-weight: 500;
+    font-size: 3.5rem;
+  
+  }
+  &__quote::after{
+    content :'”';
+    font-weight: 500;
+    font-size: 3.5rem;
+  }
 }
-.section-6__bg{
-  width: 40%;
-  margin: auto;
-}
-.section-6__quote::before{
-   content :'“';
-   font-weight: 500;
-  font-size: 3.5rem;
 
-}
-.section-6__quote::after{
-  content :'”';
-  font-weight: 500;
-  font-size: 3.5rem;
-}
 // .section-6__cite{
 //   margin-top: -2rem;
 // }
