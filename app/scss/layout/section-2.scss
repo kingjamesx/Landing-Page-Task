@@ -1,15 +1,16 @@
+@use '../abstracts/mixins.scss' as f ;
+
 .section-2{
   text-align: center;
 }
 .search-box{
-  display:flex;
+  @include f.flex;
   padding: 1em;
-  justify-content: center;
   background-color: #C4C4C499;
   ;
 }
 .search-box input{
-  // padding: 0.2em;
+  padding: 2rem;
   width: 70%;
   background-color: #FFFBF0;
   border: none;
@@ -19,6 +20,7 @@
   background-color: #FFFBF0;
   border: none;
   border-right: 2px solid #33270026;
+  padding: 2rem;
 
 }
 .balls{
@@ -51,10 +53,8 @@
 
 }
 .balls{
-  display: flex;
+ @include f.flex;
   margin: auto;
-  justify-content: center;
-  align-items: center;
  gap: 2rem;
  margin-bottom: 8rem;
 }

@@ -1,3 +1,5 @@
+@use '../abstracts/mixins.scss' as f ;
+
 .section-3__bg{
   background: url('/app/images/Frame\ 91.png') no-repeat center center;
   background-size: cover;
@@ -11,10 +13,8 @@
 @media (min-width:980px) {
   
   .section-3{
-   display: flex;
+    @include f.flex;
    margin-bottom: 2rem;
-   justify-content: center;
-   align-items: center;
    width: 80%;
    margin: auto;
    &__bg{
@@ -30,7 +30,5 @@
   font-size: 3.2rem;
 }
   }
-  
-
   
  }

@@ -1,10 +1,10 @@
+@use '../abstracts/mixins.scss' as f ;
 .footer{
   color: #FFFBF0;
   background-color: #848B89BF;
-  display: flex ;
+  @include f.flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  
   &__icon{
     display: inline-block;
     width:40%;
@@ -17,9 +17,7 @@
      flex-basis: 33%; 
   }
   &__contact__container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include f.flex;
     flex-basis: 80%;
     margin-right: 8rem;
   }

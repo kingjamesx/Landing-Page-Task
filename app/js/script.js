@@ -1,6 +1,14 @@
-const nav=document.querySelector('.harm');
-const switc=()=>{
- nav.innerHTML='<img src="./app/images/menu-hamburger.svg" alt="">'?  nav.innerHTML='<img src="./app/images/close-bold.svg" alt="">':     nav.innerHTML='<img src="./app/images/menu-hamburger.svg" alt="">'
-   
+const btn1=document.querySelector('.btn-1')
+const btn2=document.querySelector('.btn-2')
+const run=()=>{
+ btn1.classList.add('.hidden')
 }
-nav.addEventListener('click',switc)
+const runs=()=>{
+  btn2.classList.remove('.hidden')
+ }
+btn1.addEventListener('click',run)
+
+}
+btn2.addEventListener('click',runs)
+
+
