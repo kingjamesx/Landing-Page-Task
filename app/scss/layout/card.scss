@@ -42,11 +42,15 @@
   align-items: center;
   gap:3em;
 }
-@media (min-width:500px) {
+@media (min-width:980px) {
   .cards{
+    margin: 4rem;
+    width: 80%;
+    margin: auto;
    display: flex;
    justify-content: center;
    align-items: center;
+   
   }
-  
+ 
  }

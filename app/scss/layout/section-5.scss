@@ -25,11 +25,31 @@
   width: 40%;
 }
 
-@media (min-width:500px) {
-  .section-5{
-   display: flex;
+@media (min-width:980px) {
+  .section-5 h2{
+     font-size: 3.2rem;
+  }
+  .box{
+    display: flex;
    justify-content: center;
    align-items: center;
+   margin: auto;
+   width: 80%;
+   gap: 2rem;
   }
-  
+  .section-5__box{
+    height: 36rem;  
+    width: 36.7rem;
+  }
+  .section-5__box p{
+    // margin-top: 5rem;
+    font-size: 1.4rem;
+  }
+  .section-5__box h3{
+    margin-top: 5rem;
+    font-size: 2.2rem;
+  }
+  .section-5__box-lg{
+    height: 38rem;
+  }
  }

@@ -21,4 +21,50 @@
   border-right: 2px solid #33270026;
 
 }
+.balls{
+  display: none;
+}
+@media (min-width:980px) {
+  .article-2{
+    text-align: center;
+    width:50%;
+    margin: auto;
+  }
+.article-2 h2{
+  font-size: 3.2rem;
+  
+}
+.article-2 p{
+  font-size: 2rem;
+}
+.search-box{
+  border-radius: 1rem;
+  padding: 2rem 0rem;
+  margin-bottom: 4rem;
+}
+.search-btn{
+  padding-right:6rem ;
+}
+.search-btn img{
+  width: 17px;
+  height: 17px;
+
+}
+.balls{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+ gap: 2rem;
+ margin-bottom: 8rem;
+}
+ .balls-r{
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 2px solid #FFC107;
+   
+ }
+}
 

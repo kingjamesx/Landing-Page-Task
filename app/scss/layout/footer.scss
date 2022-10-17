@@ -18,3 +18,37 @@
   list-style-type:none ;
    flex-basis: 33%;
 }
+
+@media (min-width:980px) {
+  .footer{
+    font-size: 1.8rem;
+    padding: 4rem;
+    gap: 4rem;
+  }
+ .footer h2{
+  font-size: 3rem;
+ }
+ .footer p{
+  width: 80%;
+ }
+ .footer__details{
+  flex-basis: 40%;
+ }
+ .footer__contact__container{
+  font-size: 2rem;
+  display: flex;
+  width: 50%;
+  gap: 2rem;
+ }
+ 
+ .hr{
+  flex-basis: 100%;
+  // border: 2px solid #FFFBF080;
+  color:#FFFBF080;
+  margin-bottom: 0;
+ }
+ .last-p{
+    padding: 0;
+    margin-top: 0;
+ }
+}
