@@ -1,51 +1,71 @@
-@use '../abstracts/mixins.scss' as f ;
+@use "../abstracts/mixins.scss" as f;
 
-.section-6{
+.section-6 {
   margin: auto;
   text-align: center;
   font-size: 1rem;
-  background-color: #A38E811A;
+  background-color: #a38e811a;
   padding: 3rem;
-  &__bg{
+  &__bg {
     width: 30%;
     margin: auto;
   }
-  &__quote::before{
-     content :'“';
-     font-weight: 500;
+  &__quote::before {
+    content: "“";
+    font-weight: 500;
     font-size: 3.5rem;
-  
   }
-  &__quote::after{
-    content :'”';
+  &__quote::after {
+    content: "”";
     font-weight: 500;
     font-size: 3.5rem;
   }
 }
 
-// .section-6__cite{
-//   margin-top: -2rem;
-// }
+.section-6__cite{
+  font-size: 1.2;
+}
 
-@media (min-width:980px) {
-  .section-6{
+@media (min-width: 980px) {
+  .section-6 {
     @include f.flex;
     margin-bottom: 2rem;
     margin: auto;
     padding: 4rem;
-    
-   }
-   .section-6__bg{
-       width: 25%;
-       margin-left: 20rem;
-   }
-   .section-6__text{
-     width: 50%;
-     text-align: left;
-     padding: 0;
-     font-size: 1.6rem;
-   }
-   .section-6__text h1{
-     font-size: 3.2rem;
-   }
+  }
+  .section-6__bg {
+    width: 25%;
+    margin-left: 20rem;
+  }
+  .section-6__text {
+    width: 50%;
+    text-align: left;
+    padding: 0;
+    font-size: 2rem;
+
+  }
+  // .section-6__text h3 {
+  //   font-size: 3.4rem;
+  // }
+  .section-6__cite{
+    font-size: 3.4rem;
+    padding: 0;
+    margin: 0;
+
+  }
+  .section-6__quote::before {
+    font-weight: 500;
+    font-size: 7.2rem;
+  }
+  .section-6__quote::after {
+    font-weight: 500;
+    font-size: 7.2rem;
+    margin: 35rem;
+    padding: 0;
+  }
+  .section-6__quote{
+    width: 90%;
+    padding: 0;
+    margin: 0;
+  }
 }
