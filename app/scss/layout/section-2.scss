@@ -2,6 +2,7 @@
 
 .section-2 {
   text-align: center;
+  background-color: #fffbf0;
 }
 .search-box {
   @include f.flex;
@@ -21,7 +22,8 @@
   border-right: 2px solid #33270026;
   padding: 2rem;
 }
-.article-2 h2,p{
+.article-2 h2,
+p {
   padding: 1rem;
   margin: 0;
 }
@@ -68,7 +70,7 @@
   .dark {
     background-color: #ffc107;
   }
-  .section-2 .balls{
+  .section-2 .balls {
     margin-top: 4rem;
   }
 }

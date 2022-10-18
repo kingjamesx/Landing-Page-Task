@@ -2,6 +2,7 @@
 
 .section-5 {
   text-align: center;
+  background-color: #fffbf0;
   &__box {
     width: 50%;
     text-align: center;
@@ -72,7 +73,7 @@
   .section-5__heading {
     @include f.flex;
   }
-  .section-5__box:hover{
+  .section-5__box:hover {
     transform: scale(0.9);
     cursor: pointer;
   }

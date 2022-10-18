@@ -1,5 +1,7 @@
 @use "../abstracts/mixins.scss" as f;
-
+.section-3 {
+  background-color: #faf6e9;
+}
 .section-3__bg {
   background: url("/app/images/Frame\ 91.png") no-repeat center center;
   background-size: cover;
@@ -14,7 +16,7 @@
   .section-3 {
     @include f.flex;
     margin-bottom: 2rem;
-    width: 80%;
+    width: 100%;
     margin: auto;
     &__bg {
       margin: 0;

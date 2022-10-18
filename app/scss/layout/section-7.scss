@@ -15,16 +15,14 @@
 
 .text-left {
   text-align: right;
-  // margin-right:7.5em;
   width: 40%;
 }
 @media (min-width: 980px) {
   .section-7__lists {
-     gap: 0;
+    gap: 0;
     margin: auto;
     flex-basis: 22%;
     font-size: 1.8rem;
-    
   }
   .section-7__name {
     margin-left: 4rem;
@@ -43,8 +41,8 @@
     text-align: right;
     width: 60%;
   }
- 
-  .full{
+
+  .full {
     flex-basis: 100%;
   }
 }
