@@ -8,7 +8,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][https://schoollandinpage.netlify.app/]](https://example.com)
+This is a school landing page built with scss and html
 
 
 ### Built With
