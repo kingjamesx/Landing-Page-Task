@@ -25,6 +25,10 @@
     list-style-type: none;
     flex-basis: 33%;
     text-align: left;
+    a {
+      text-decoration: none;
+      color: #fffbf0;
+    }
   }
   &__contact__container {
     @include f.flex;
@@ -33,7 +37,6 @@
     margin: auto;
   }
 }
-
 .hr {
   flex-basis: 100%;
   color: #fffbf080;
