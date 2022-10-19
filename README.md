@@ -2,19 +2,13 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/8b40674712164852b236563dd91b836f)](https://www.codacy.com/gh/kingjamesx/Landing-Page-Task/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kingjamesx/Landing-Page-Task&amp;utm_campaign=Badge_Grade)
 
 
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][https://schoollandinpage.netlify.app/]](https://example.com)
 
 
 ### Built With
@@ -49,7 +43,7 @@ Contributions are what make the open source community such an amazing place to b
 
 <!-- LICENSE -->
 ## 📝 License
-Describe your License for your project. 
+
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
@@ -58,9 +52,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## 📫 Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Your Name - [@your_twitter](https://twitter.com/kingjames_x)
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://schoollandinpage.netlify.app/]
 
 
 
